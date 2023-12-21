@@ -15,7 +15,7 @@ const signUpForm = document.querySelector('.form-wrapper.sign-up form');
 signUpForm.addEventListener('submit', function (event) {
 
   // ke login.html
-  window.location.href = 'login.html';
+  window.location.href = 'index.html';
 
   event.preventDefault();
 });
